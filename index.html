@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Surprise for My Friend!</title>
+    <link href="https://fonts.googleapis.com/css2?family=Cookie&family=Poppins:wght@300&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container">
+        <h1>आपके लिए सरप्राइज़!🎉</h1>
+        <p>कृपया नीचे दीया हुआ बटन प्रेस करे!! 😼</p>
+        <button id="surpriseButton">अराम से प्रेस करे :)</button>
+        
+        <!-- Image that will appear after button click -->
+        <div id="friendImage" class="hidden">
+            <img src="cutie1.png" alt="Friend's Image" />
+        </div>
+
+        <!-- Balloons and Music will appear after clicking the button -->
+        <div id="balloons" class="hidden"></div>
+        <audio id="music" class="hidden">
+            <source src="hbd.mp4" type="audio/mp3">
+            Your browser does not support the audio element.
+        </audio>
+
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
